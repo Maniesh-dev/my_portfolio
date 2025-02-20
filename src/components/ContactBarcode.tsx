@@ -2,7 +2,8 @@ import React from 'react'
 
 const ContactBarcode = () => {
   return (
-    <div className='absolute xl:bottom-4 xl:left-[40px] -bottom-[150px] left-[110px] z-10'>
+    <div className='absolute xl:bottom-4 xl:left-[40px] -bottom-[215px] left-[110px] z-10'>
+      <div>
       <svg id="barcode" width="200px" height="142px" x="0px" y="0px" viewBox="0 0 200 142" xmlns="http://www.w3.org/2000/svg" version="1.1" style={{transform: 'translate(0px, 0px)'}}>
         <g transform="translate(10, 10)" style={{fill:'#ffffff'}}>
           <rect x="0" y="0" width="4" height="70"/>
@@ -56,9 +57,10 @@ const ContactBarcode = () => {
           <rect x="164" y="0" width="6" height="70"/>
           <rect x="172" y="0" width="2" height="70"/>
           <rect x="176" y="0" width="4" height="70"/>
-          <text style={{font: '20px monospace', fill: '#C14600'}} textAnchor="middle" x="90" y="100">+91 9587696134</text>
         </g>
+          <text style={{font: '20px monospace', fill: '#C14600'}} textAnchor="middle" x="90" y="100">+91 9587696134</text>
       </svg>
+      </div>
     </div>
   )
 }

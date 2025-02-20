@@ -17,7 +17,7 @@ const Background = () => {
           <ContactBarcode/>
         </div>
       </div>
-      <div className="h-[300px] md:h-[400px] xl:h-screen w-full dark:bg-black bg-white dark:bg-grid-white/[0.2] bg-grid-black/[0.2] relative flex flex-col px-4 -mt-[7px]">
+      <div className="h-[350px] md:h-[400px] xl:h-screen w-full dark:bg-black bg-white dark:bg-grid-white/[0.2] bg-grid-black/[0.2] relative flex flex-col px-4 -mt-[7px]">
         <BrakingBed/>
         
       </div>

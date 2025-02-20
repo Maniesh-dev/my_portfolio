@@ -14,7 +14,7 @@ export default {
   theme: {
   	extend: {
   		colors: {
-        // "bg-grid": "white",
+        primary: "Goldman"
   		},
   	}
   },

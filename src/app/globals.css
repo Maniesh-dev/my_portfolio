@@ -13,6 +13,74 @@ body {
 
 }
 
+.menuLink {
+  font-family: "Goldman", sans-serif;
+}
+
+.horizontalAnimation1 {
+  animation: horizontal 30s linear infinite;
+}
+
+@keyframes horizontal {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.horizontalAnimation2 {
+  animation: horizontal 30s linear infinite;
+}
+
+@keyframes horizontal {
+  0% {
+    transform: translateX(-0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.rotateFull {
+  animation: rotateFull 4s linear infinite;
+}
+
+@keyframes rotateFull {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.barcodeAnimation1 {
+  animation: barcode 20s linear infinite;
+}
+
+@keyframes barcode {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.barcodeAnimation2 {
+  animation: barcode 20s linear infinite 20s;
+}
+
+@keyframes barcode {
+  0% {
+    transform: translateX(-0%);
+  }
+  100% {
+    transform: translateX(-110%);
+  }
+}
+
 
 .heroText {
   font-family: "Goldman", serif;

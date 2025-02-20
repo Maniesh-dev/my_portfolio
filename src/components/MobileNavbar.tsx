@@ -27,47 +27,31 @@ function MobileNavbar() {
       <Sheet open={showMobileMenu} onOpenChange={setShowMobileMenu}>
         <SheetTrigger asChild>
           <Button variant="ghost" size="icon">
-            <MenuIcon className="w-full"/>
+            <div className="fixed right-4 px-5 py-2 rounded-full flex items-center gap-2 border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 z-50">
+              <MenuIcon className="w-full"/>
+              <p>Menu</p>
+            </div>
           </Button>
         </SheetTrigger>
-        <SheetContent side="right" className="w-[300px]">
+        <SheetContent side="right" className="w-[300px] bg-black flex flex-col justify-center items-center">
           <SheetHeader>
-            <SheetTitle>Menu</SheetTitle>
+            <SheetTitle className="text-3xl font-primary">MENU</SheetTitle>
           </SheetHeader>
-          <nav className="flex flex-col space-y-4 mt-6">
-            <Button variant="ghost" className="flex items-center gap-3 justify-start" asChild onClick={() => setShowMobileMenu(false)}>
-              <Link href="/">
-                <HomeIcon className="w-4 h-4" />
-                Home
-              </Link>
+          <nav className="flex flex-col space-y-4 mt-6 ">
+            <Button variant="ghost" className="text-5xl font-primary font-bold menuLink" asChild onClick={() => setShowMobileMenu(false)}>
+              <Link href="/">HOME</Link>
             </Button>
 
-            <Button variant="ghost" className="flex items-center gap-3 justify-start" asChild onClick={() => setShowMobileMenu(false)}>
-              <Link href="#recent-event">
-                <PartyPopperIcon className="w-4 h-4" />
-                Recent Event
-              </Link>
+            <Button variant="ghost" className="text-5xl font-primary font-bold menuLink" asChild onClick={() => setShowMobileMenu(false)}>
+              <Link href="/work">WORK</Link>
             </Button>
 
-            <Button variant="ghost" className="flex items-center gap-3 justify-start" asChild onClick={() => setShowMobileMenu(false)}>
-              <Link href="#awards">
-                <AwardIcon className="w-4 h-4" />
-                Awards
-              </Link>
+            <Button variant="ghost" className="text-5xl font-primary font-bold menuLink" asChild onClick={() => setShowMobileMenu(false)}>
+            <Link href="/about">ABOUT</Link>
             </Button>
 
-            <Button variant="ghost" className="flex items-center gap-3 justify-start" asChild onClick={() => setShowMobileMenu(false)}>
-              <Link href="#about">
-                <BookMarkedIcon className="w-4 h-4" />
-                About us
-              </Link>
-            </Button>
-
-            <Button variant="ghost" className="flex items-center gap-3 justify-start" asChild onClick={() => setShowMobileMenu(false)}>
-              <Link href="#contact">
-                <ContactIcon className="w-4 h-4" />
-                Contact us
-              </Link>
+            <Button variant="ghost" className="text-5xl font-primary font-bold menuLink" asChild onClick={() => setShowMobileMenu(false)}>
+              <Link href="/contact">CONTACT</Link>
             </Button>
           </nav>
         </SheetContent>

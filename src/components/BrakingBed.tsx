@@ -14,7 +14,7 @@ const BrakingBed = () => {
       </div>
       <div className=" font-bold relative bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 flex flex-col justify-center items-center z-0">
       <div className="w-full mt-[125px] flex items-center justify-center relative overflow-hidden tracking-y-[20px] z-0">
-        <p className="text-2xl sm:text-4xl md:text-5xl xl:text-7xl lg:text-[85px] font-bold text-center text-white font-sans mt-[30px] md:mt-[40px] xl:mt-[245px] uppercase flex flex-col items-center justify-center gap-[2px] heroText">
+        <p className="text-2xl sm:text-4xl md:text-5xl xl:text-7xl lg:text-[85px] font-bold text-center text-white font-sans mt-[73px] md:mt-[40px] xl:mt-[245px] uppercase flex flex-col items-center justify-center gap-[2px] heroText">
           <span>You Know The <ColourfulText text="BUSSINESS" /></span>
           <span><ColourfulText text="&"/> I Know The <ColourfulText text="CHEMISTRY" /></span>
           <span>let's <ColourfulText text="COOK" /> Together.</span>

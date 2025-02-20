@@ -14,9 +14,9 @@ const HeroSection = () => {
       <InfiniteAnimation/>
       
       <div>
-        <Image src={heroImg} alt='Maniesh Sanwal' className='absolute -left-[160px] bottom-[132px] sm:bottom-[95px] sm:-left-[35px] xl:-bottom-[281px] xl:left-[320px] max-w-96 z-10'/>
+        <Image src={heroImg} alt='Maniesh Sanwal' className='absolute -left-[160px] bottom-[75px] sm:bottom-[95px] sm:-left-[35px] xl:-bottom-[281px] xl:left-[320px] max-w-96 z-10'/>
       </div>
-      <div className='absolute text-right md:w-[390px] md:bottom-[50px] md:right-[30px] xl:text-left xl:w-[400px] xl:-bottom-[300px] xl:right-[110px] right-[25px] -bottom-[20px] z-10'>
+      <div className='absolute text-right md:w-[390px] md:bottom-[50px] md:right-[30px] xl:text-left xl:w-[400px] xl:-bottom-[300px] xl:right-[110px] right-[25px] -bottom-[80px] z-10'>
         <p className='mb-32'>M./</p>
         <p className='absolute top-[75px] right-0 md:hidden text-[#C14600] font-semibold'>./ Skilled in Both <br />.// Design & Development</p>
         <CreativeText/>
