@@ -1,7 +1,8 @@
 "use client";
 import React from "react";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import { cn } from "../../lib/utils";
+import * as motion from 'motion/react-client'
 
 export const BoxesCore = ({ className, ...rest }: { className?: string }) => {
   const rows = new Array(40).fill(1);
@@ -20,6 +21,7 @@ export const BoxesCore = ({ className, ...rest }: { className?: string }) => {
   const getRandomColor = () => {
     return colors[Math.floor(Math.random() * colors.length)];
   };
+  
 
   return (
     <div
@@ -43,6 +45,7 @@ export const BoxesCore = ({ className, ...rest }: { className?: string }) => {
                 backgroundColor: `var(${getRandomColor()})`,
                 transition: { duration: 0 },
               }}
+              // onClick={()=>console.log("clicked")}
               animate={{
                 transition: { duration: 2 },
               }}

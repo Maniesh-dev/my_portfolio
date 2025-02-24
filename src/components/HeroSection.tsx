@@ -12,9 +12,8 @@ const HeroSection = () => {
       </div>
       <HeroText/>
       <InfiniteAnimation/>
-      
       <div>
-        <Image src={heroImg} alt='Maniesh Sanwal' className='absolute -left-[160px] bottom-[75px] sm:bottom-[95px] sm:-left-[35px] xl:-bottom-[281px] xl:left-[320px] max-w-96 z-10'/>
+        <Image src={heroImg} alt='Maniesh Sanwal' className='absolute -left-[160px] bottom-[75px] sm:bottom-[95px] sm:-left-[35px] xl:-bottom-[281px] xl:left-[320px] max-w-96 z-10 imgGradient'/>
       </div>
       <div className='absolute text-right md:w-[390px] md:bottom-[50px] md:right-[30px] xl:text-left xl:w-[400px] xl:-bottom-[300px] xl:right-[110px] right-[25px] -bottom-[80px] z-10 text-gray-400 font-medium'>
         <p className='mb-32'>M./</p>

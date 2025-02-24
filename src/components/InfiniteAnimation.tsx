@@ -1,12 +1,13 @@
 import { PlusIcon } from 'lucide-react'
-import React from 'react'
-import { motion } from 'framer-motion'
+// import * as motion from 'motion/react-client'
+// import { useScroll } from "motion/react"
+// import { useMotionValueEvent } from "motion/react"
 
 
 
 const InfiniteAnimation = () => {
   return (
-    <div className='mt-[15px] md:-mt-[15px] xl:-mt-[33px] flex overflow-hidden '>
+    <div className='flex overflow-hidden'>
       <div className='flex items-center gap-3 horizontalAnimation1'>
         <div className='flex items-center gap-3'>
           <p>Developer</p>
